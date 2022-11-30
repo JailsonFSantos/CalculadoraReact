@@ -1,0 +1,68 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 4em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: black;
+    border: 1em;
+    padding:  1em;
+}
+
+.orange{
+    background-color: #ff9500;
+    color: white;
+}
+
+.orange:focus {
+    background-color: white;
+    color: #ff9500;
+}
+
+.gray{
+    background-color: #505050;
+    color: white;
+}
+
+.gray:focus {
+    background-color: white;
+    color: #505050;
+}
+
+.zero:focus {
+    background-color: white;
+    color: #505050;
+}
+
+.zero{
+    background-color: #505050;
+    color: white;
+    width: 6.4em;
+    height: 2.85em;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.resultado{
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin: 0.5em;
+    font-size: 4em;
+}
+
+.h1{
+    color: rgb(245, 240, 240);
+}
+
+.opline1:focus {
+    background-color: #ebe1e1;
+}
